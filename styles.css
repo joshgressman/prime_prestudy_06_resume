@@ -1,0 +1,149 @@
+
+      <!-- clear out default browser -->
+
+       html, body, h1, h2, h3, p, ol, ul, li, a {
+       	padding: 0px;
+       	border: 0px;
+       	margin: 0px;
+       }
+
+       body {
+       	   color:white;
+           font-family: "Times New Roman", Times, serif;
+           font-size: 15px;
+           background-color:#404040;
+           background-image: url(images/background-1.jpg);
+           opacity: 1.0;
+           background-position: top left;
+           background-repeat: repeat;
+
+
+        }
+
+
+        header {
+
+
+        }
+
+        header p {
+       	text-align: center;
+       	padding-bottom:10px;
+        margin: 0 300px 0 300px;
+       }
+
+       .main {
+       	padding: 0px 120px 0px 120px;
+       }
+
+       h1 {
+       	margin: 50px 0 1px 0;
+       	text-align: center;
+       	font-size: 3.0em;
+       	text-shadow: 4px 1px 20px #00e600;
+
+
+       }
+
+       h3 {
+       	text-shadow: 2px 2px 10px #00e600;
+
+       }
+
+       h4 {
+       	text-shadow: 2px 2px 10px #00e600;
+       }
+
+
+       .bio {
+       	width:240px;
+       	height: 240px;
+       	margin: 0 auto 0 auto;
+       	/* display block will change element to a block instead of inline level tag */
+       	display:block;
+       	box-shadow: 1px 1px 20px #00e600
+
+       }
+
+       header img {
+       	border: 3px solid #00e600;
+       	margin-bottom:20px;
+
+       }
+
+
+
+       .inline-list li {
+       	list-style: none;
+       	/*display inline changed to horizontal li*/
+        display: inline;
+        padding-right: 20px;
+
+
+       }
+
+       .bull-list {
+
+       	padding-bottom: 20px;
+
+       }
+
+       table td {
+        padding: 0 12px 0 40px;
+       }
+
+       .border {
+       	border-bottom: 1px solid #00e600;
+
+
+       }
+
+      .no-bull {
+      	list-style: none;
+      }
+
+      .img-ul img {
+      	float: left;
+      	padding:0 20px 40px 0;
+      	height:180px;
+      	width:180px;
+      }
+
+      .img-ul li {
+      	list-style: none;
+      	padding: 20px 0 120px 0;
+
+      }
+
+      .img-ul p {
+      	margin-top:40px;
+      }
+
+        footer {
+      	background-color: black;
+      	height: 140px;
+      	width:100%;
+      	margin: -50px ;
+      	padding: 0px 20px 20px 185px;
+      	border-top: 1px solid #00e600;
+      }
+
+      address {
+      	padding-top:30px;
+      }
+
+      button {
+        width:340px;
+        height: 50px;
+        background-color:#3399ff;
+        display:block;
+        margin: 100px auto 0 auto;
+        border-radius: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.0em;
+      }
+
+      .hide {
+        display:none;
+      }
